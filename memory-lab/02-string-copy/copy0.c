@@ -27,3 +27,10 @@ int main(void)
     printf("s: %s\n", s);
     printf("t: %s\n", t);
 }
+// ANSWER: This happens because when we do "string t = s" it does not make a copy of the string.
+
+// It just copies where the string is stored in the computers memory.
+
+// Both s and t are like two names for the string, in memory
+
+// so when we change the letter of t0 we are also changing the first letter of s0

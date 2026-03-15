@@ -28,3 +28,17 @@ void swap(int a, int b)
     a = b;
     b = tmp;
 }
+
+//The swap does not work because the function gets copies of x and y not the x and y.
+
+//When we change a and b we are only changing the copies that are, inside the swap function.
+
+//This means x and y in the part stay the same.
+
+//The swap function is only changing its copies of x and y.
+
+//So x and y in the part do not change.
+
+//The function has its and y, which are copies of the original x and y.
+
+//Changing the copies of x and y inside the swap function does not change the x and y.
